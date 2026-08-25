@@ -1,0 +1,70 @@
+# Weekly snapshot refresh for the ShirtMap Local Merch Index mirror.
+#
+# Fetches the canonical live CSV (regenerated on every request by
+# shirtmap.com) and commits it here only when it actually changed, then
+# pushes the fresh snapshot to the Hugging Face mirror when credentials are
+# configured:
+#   - repo secret  HF_TOKEN         (huggingface.co write token)
+#   - repo variable HF_DATASET_REPO (e.g. "your-hf-username/local-merch-index")
+# Without those two, the Hugging Face step just skips.
+
+name: Refresh snapshot
+
+on:
+  schedule:
+    - cron: "0 13 * * 1" # Mondays 13:00 UTC
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch live CSV
+        run: curl -fsS --retry 3 https://shirtmap.com/data/local-merch-index.csv -o local-merch-index.csv
+
+      - name: Commit if changed
+        id: commit
+        run: |
+          if git diff --quiet -- local-merch-index.csv; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "Snapshot unchanged; nothing to commit."
+          else
+            git config user.name "shirtmap-snapshot-bot"
+            git config user.email "actions@users.noreply.github.com"
+            git add local-merch-index.csv
+            git commit -m "Refresh snapshot: $(date -u +%Y-%m-%d)"
+            git push
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Push snapshot to Hugging Face
+        if: ${{ steps.commit.outputs.changed == 'true' && vars.HF_DATASET_REPO != '' }}
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+          HF_DATASET_REPO: ${{ vars.HF_DATASET_REPO }}
+        run: |
+          if [ -z "$HF_TOKEN" ]; then
+            echo "HF_TOKEN secret not set; skipping Hugging Face push."
+            exit 0
+          fi
+          pip install -q huggingface_hub
+          python - <<'EOF'
+          import os
+          from huggingface_hub import HfApi
+          api = HfApi(token=os.environ["HF_TOKEN"])
+          repo = os.environ["HF_DATASET_REPO"]
+          for name in ("local-merch-index.csv", "README.md"):
+              api.upload_file(
+                  path_or_fileobj=name,
+                  path_in_repo=name,
+                  repo_id=repo,
+                  repo_type="dataset",
+                  commit_message=f"Refresh {name} from the live ShirtMap index",
+              )
+          print(f"Pushed snapshot to https://huggingface.co/datasets/{repo}")
+          EOF
