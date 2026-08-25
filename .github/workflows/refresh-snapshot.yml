@@ -22,7 +22,7 @@ jobs:
   refresh:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
       - name: Fetch live CSV
         run: curl -fsS --retry 3 https://shirtmap.com/data/local-merch-index.csv -o local-merch-index.csv
