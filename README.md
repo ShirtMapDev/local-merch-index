@@ -53,6 +53,16 @@ Creative Commons Attribution 4.0 (CC BY 4.0). Use it in research, journalism, or
 
 Cite as: ShirtMap Local Merch Index, https://shirtmap.com/data
 
+```bibtex
+@misc{shirtmap_local_merch_index,
+  title        = {ShirtMap Local Merch Index},
+  author       = {{ShirtMap}},
+  year         = {2026},
+  howpublished = {\url{https://shirtmap.com/data}},
+  note         = {Licensed under CC BY 4.0}
+}
+```
+
 ## About ShirtMap
 
 ShirtMap is a small, independently run marketplace where every listing traces to a reviewed, named, located business. There are no anonymous sellers and no mass-generated catalogs; the authenticity policy is at https://shirtmap.com/authenticity.
