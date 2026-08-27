@@ -7,6 +7,10 @@
 #   - repo secret  HF_TOKEN         (huggingface.co write token)
 #   - repo variable HF_DATASET_REPO (e.g. "your-hf-username/local-merch-index")
 # Without those two, the Hugging Face step just skips.
+#
+# Scheduled runs push to Hugging Face only when the snapshot changed; a
+# manual "Run workflow" always pushes, so it can seed or repair the HF
+# mirror even when the data is unchanged.
 
 name: Refresh snapshot
 
@@ -43,7 +47,7 @@ jobs:
           fi
 
       - name: Push snapshot to Hugging Face
-        if: ${{ steps.commit.outputs.changed == 'true' && vars.HF_DATASET_REPO != '' }}
+        if: ${{ (steps.commit.outputs.changed == 'true' || github.event_name == 'workflow_dispatch') && vars.HF_DATASET_REPO != '' }}
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
           HF_DATASET_REPO: ${{ vars.HF_DATASET_REPO }}
