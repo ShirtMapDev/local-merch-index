@@ -1,11 +1,12 @@
 shirt_name,business_name,business_type,town,state,price_usd,price_max_usd,sold_on_shirtmap,listing_url,updated
+California Surfboard T-Shirt,ShirtMap,Retail,California,,25.00,,true,https://shirtmap.com/shirts/california-surfboard-t-shirt,2026-09-01
 GABC Logo Tee,The Great Alaskan Bowl Company,Retail,Fairbanks,AK,35.00,,false,https://shirtmap.com/shirts/gabc-logo-tee,2026-07-27
 Alaska Robotics Logo - Adult T-Shirt,Alaska Robotics,Retail,Juneau,AK,25.00,,false,https://shirtmap.com/shirts/alaska-robotics-logo-adult-t-shirt,2026-07-27
 I AM Smiling - Adult Sized Tee (Black),Alaska Raptor Center,Tourism / Local Attraction,Sitka,AK,25.00,,false,https://shirtmap.com/shirts/i-am-smiling-adult-sized-tee-black,2026-08-03
 Good Days Shirt,Seeds Coffee Co,Coffee Shop,Birmingham,AL,32.00,,false,https://shirtmap.com/shirts/good-days-shirt,2026-08-03
 Good People Logo T-Shirt,Good People Brewing Company,Brewery / Bar,Birmingham,AL,25.00,,false,https://shirtmap.com/shirts/good-people-logo-t-shirt,2026-08-17
 Saw's BBQ Dancing Pigs T-Shirt,Saw's BBQ,Restaurant / Food & Drink,Birmingham,AL,25.00,,false,https://shirtmap.com/shirts/saw-s-bbq-dancing-pigs-t-shirt,2026-08-27
-Collage Shirt - Moss,Big Bob Gibson Bar-B-Q,Restaurant / Food & Drink,Decatur,AL,24.00,,false,https://shirtmap.com/shirts/collage-shirt-moss,2026-08-27
+Collage Shirt - Moss,Big Bob Gibson Bar-B-Q,Restaurant / Food & Drink,Decatur,AL,24.00,28.00,false,https://shirtmap.com/shirts/collage-shirt-moss,2026-09-01
 Pelican Sunset Short Sleeve,The Fairhope Store,Retail,Fairhope,AL,30.00,,false,https://shirtmap.com/shirts/pelican-sunset-short-sleeve,2026-08-03
 Snail Storefront Shirt,The Snail on the Wall,Retail,Huntsville,AL,25.00,,false,https://shirtmap.com/shirts/snail-storefront-shirt,2026-08-03
 Dreamland Original T-Shirt,Dreamland Bar-B-Que,Restaurant / Food & Drink,Tuscaloosa,AL,29.99,,false,https://shirtmap.com/shirts/dreamland-original-t-shirt,2026-08-27
@@ -126,7 +127,7 @@ Kahwa Black T-Shirt,Kahwa Coffee,Coffee Shop,Saint Petersburg,FL,13.56,,false,ht
 Carbon Neutral Company T-Shirt,Amavida Coffee Roasters,Coffee Shop,Santa Rosa Beach,FL,30.00,,false,https://shirtmap.com/shirts/carbon-neutral-company-t-shirt,2026-08-27
 Sundog Classic Logo Short Sleeve T-Shirt,Sundog Books,Bookshop,Santa Rosa Beach,FL,26.00,,false,https://shirtmap.com/shirts/sundog-classic-logo-short-sleeve-t-shirt,2026-08-19
 Mote Marine Laboratory Logo Eco T-Shirt,Mote Marine Laboratory & Aquarium,Tourism / Local Attraction,Sarasota,FL,34.00,,false,https://shirtmap.com/shirts/mote-marine-laboratory-logo-eco-t-shirt,2026-08-03
-Surf Station Swamp Men's S/S T-Shirt - Grey,Surf Station,Retail,St. Augustine,FL,19.84,,false,https://shirtmap.com/shirts/surf-station-swamp-men-s-s-s-t-shirt-grey,2026-08-03
+Surf Station Swamp Men's S/S T-Shirt - Grey,Surf Station,Retail,St. Augustine,FL,27.84,,false,https://shirtmap.com/shirts/surf-station-swamp-men-s-s-s-t-shirt-grey,2026-09-04
 Unisex Comfort Colors T-Shirt,The Bog Brewing Company,Brewery / Bar,St. Augustine,FL,25.00,27.00,false,https://shirtmap.com/shirts/unisex-comfort-colors-t-shirt,2026-08-13
 3 Daughters Brewing Logo T-Shirt Unisex,3 Daughters Brewing,Brewery / Bar,St. Petersburg,FL,25.00,,false,https://shirtmap.com/shirts/3-daughters-brewing-logo-t-shirt-unisex,2026-08-17
 Patrona Palm Short Sleeve T-Shirt,Patrona Coastal Cafe,Coffee Shop,St. Petersburg,FL,19.00,,false,https://shirtmap.com/shirts/patrona-palm-short-sleeve-t-shirt,2026-06-04
@@ -136,7 +137,7 @@ Classic City Light Tee,Creature Comforts Brewing Company,Brewery / Bar,Athens,GA
 Terrapin Red and Black Logo T-Shirt,Terrapin Beer Co.,Brewery / Bar,Athens,GA,19.99,,false,https://shirtmap.com/shirts/terrapin-red-and-black-logo-t-shirt,2026-08-17
 Classic Logo Yellow T-Shirt,The Varsity,Restaurant / Food & Drink,Atlanta,GA,15.95,,false,https://shirtmap.com/shirts/classic-logo-yellow-t-shirt,2026-08-27
 "Old School Crew Neck, Blue",Fox Bros Bar-B-Q,Restaurant / Food & Drink,Atlanta,GA,25.00,,false,https://shirtmap.com/shirts/old-school-crew-neck-blue,2026-07-27
-Plaza Theatre Shirt,Plaza Theatre,Event / Festival,Atlanta,GA,30.00,,false,https://shirtmap.com/shirts/plaza-theatre-shirt,2026-08-03
+Plaza Theatre Shirt,Plaza Theatre,Event / Festival,Atlanta,GA,35.00,,false,https://shirtmap.com/shirts/plaza-theatre-shirt,2026-09-04
 SweetWater Badge Tee,SweetWater Brewing Company,Brewery / Bar,Atlanta,GA,25.00,,false,https://shirtmap.com/shirts/sweetwater-badge-tee,2026-08-17
 Charis T-shirt - Black,Charis Books & More,Bookshop,Decatur,GA,24.95,,false,https://shirtmap.com/shirts/charis-t-shirt-black,2026-07-27
 Read Banned Books Tee,Brave + Kind Bookshop,Bookshop,Decatur,GA,28.00,,false,https://shirtmap.com/shirts/read-banned-books-tee,2026-08-19
@@ -259,7 +260,7 @@ Stillwater Cheers T-Shirt,Lift Bridge Brewing Company,Brewery / Bar,Stillwater,M
 Classic Logo Tee,Castle Danger Brewery,Brewery / Bar,Two Harbors,MN,25.00,,false,https://shirtmap.com/shirts/classic-logo-tee-3,2026-08-17
 Ragtag Cinema T-Shirt,Ragtag Cinema,Nonprofit,Columbia,MO,25.00,,false,https://shirtmap.com/shirts/ragtag-cinema-t-shirt,2026-07-27
 Gates T-Shirt,Gates Bar-B-Q,Restaurant / Food & Drink,Kansas City,MO,19.50,,false,https://shirtmap.com/shirts/gates-t-shirt,2026-08-27
-Heart Logo T-Shirt,Arthur Bryant's Barbeque,Restaurant / Food & Drink,Kansas City,MO,30.00,,false,https://shirtmap.com/shirts/heart-logo-t-shirt,2026-08-27
+Heart Logo T-Shirt,Arthur Bryant's Barbeque,Restaurant / Food & Drink,Kansas City,MO,30.00,36.00,false,https://shirtmap.com/shirts/heart-logo-t-shirt,2026-09-01
 M Logo T-Shirt,Messenger Coffee,Coffee Shop,Kansas City,MO,22.00,,false,https://shirtmap.com/shirts/m-logo-t-shirt,2026-08-27
 Mills Baseball Text T,Mills Record Company,Retail,Kansas City,MO,24.00,,false,https://shirtmap.com/shirts/mills-baseball-text-t,2026-07-27
 Side Project Logo T-Shirt,Side Project Brewing,Brewery / Bar,Maplewood,MO,25.00,,false,https://shirtmap.com/shirts/side-project-logo-t-shirt,2026-08-17
@@ -418,7 +419,7 @@ GG Brew Methods Tee,Greater Goods Coffee,Coffee Shop,Austin,TX,26.00,,false,http
 Keep Austin Weird Tie Dye T-Shirt,BookPeople,Bookshop,Austin,TX,26.95,,false,https://shirtmap.com/shirts/keep-austin-weird-tie-dye-t-shirt,2026-08-19
 Keep Austin Weird Tie Dye T-Shirt,Amy's Ice Creams,Restaurant / Food & Drink,Austin,TX,21.99,,false,https://shirtmap.com/shirts/keep-austin-weird-tie-dye-t-shirt-2,2026-08-27
 Rainbow Paradise Tee,Meanwhile Brewing Co.,Brewery / Bar,Austin,TX,32.00,,false,https://shirtmap.com/shirts/rainbow-paradise-tee,2026-08-17
-Goldee's T-Shirt,Goldee's Barbecue,Restaurant / Food & Drink,Fort Worth,TX,30.00,,false,https://shirtmap.com/shirts/goldee-s-t-shirt,2026-08-27
+Goldee's T-Shirt,Goldee's Barbecue,Restaurant / Food & Drink,Fort Worth,TX,30.00,35.00,false,https://shirtmap.com/shirts/goldee-s-t-shirt,2026-09-01
 Texas Jack Logo T-Shirt,Texas Jack's Wild West Outfitters,Retail,Fredericksburg,TX,20.95,,false,https://shirtmap.com/shirts/texas-jack-logo-t-shirt,2026-07-27
 Blue Willow Bookshop T-Shirt,Blue Willow Bookshop,Bookshop,Houston,TX,25.00,,false,https://shirtmap.com/shirts/blue-willow-bookshop-t-shirt,2026-08-19
 KBC Long Horn Houston Olive Shirt,Karbach Brewing Co.,Brewery / Bar,Houston,TX,30.00,,false,https://shirtmap.com/shirts/kbc-long-horn-houston-olive-shirt,2026-08-17
